@@ -12,7 +12,7 @@ module "sgmodule" {
     source = "./sg"
 }
 
-output "module_output" {
+output "module_output1" {
     value = module.ec2module.instance_id
 }
 
