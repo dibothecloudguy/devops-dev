@@ -13,8 +13,8 @@ terraform {
     bucket         = "dibo-tf-state"
     key            = "dibo-tf-state/terraform.tfstate"
     region         = "us-east-1"
-    access_key ="AKIAQTKLP4UHSYB4RV5S"
-    secret_key="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"
+    access_key =""
+    secret_key=""
     #dynamodb_table = "dynamodb-terraform-state-lock"
     #encrypt        = true
   }
